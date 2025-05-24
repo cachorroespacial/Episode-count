@@ -1,6 +1,6 @@
 *To start from: pip install -r requirements.txt*
 
-In order to use the program, you will need to turn on the API. To turn it on, just use the command: uvicorn API:app --reload (or if you prefer, you can just run the no_api.py file)
+In order to use the program, you will need to turn on the API. To turn it on, just use the command: uvicorn API:app --reload (Update: or if you prefer, you can just run the no_api.py file)
 
 Then just start gui.py or no_gui.py.
 Just give the command: python3 gui.py or no_gui.py
