@@ -1,7 +1,7 @@
 import requests
 
 anime = input("Enter the name of the anime: ")
-contar_ovas = input("Do you want to count OVAs too? (y/n): ").lower() == 's'
+contar_ovas = input("Do you want to count OVAs too? (y/n): ").lower() == 'y'
 
 response = requests.get(
     "http://127.0.0.1:8000/episodes/",
