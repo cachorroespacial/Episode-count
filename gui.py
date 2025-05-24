@@ -56,24 +56,3 @@ resultado_label.pack(pady=10)
 
 root.mainloop()
 
-
-
-"""import requests
-
-anime = input("Digite o nome do anime: ")
-contar_ovas = input("Deseja contar OVAs também? (s/n): ").lower() == 's'
-
-response = requests.get(
-    "http://127.0.0.1:8000/episodios/",
-    params={"nome": anime, "contar_ovas": contar_ovas}
-)
-
-data = response.json()
-
-if "erro" in data:
-    print("Anime não encontrado.")
-else:
-    print(f"Nome: {data['nome']}")
-    print(f"Episódios: {data['episodios']}")
-    print(f"OVAs: {data['ovas']}")
-"""
