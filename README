@@ -7,3 +7,4 @@ Just give the command: python3 gui.py or no_gui.py
 
 I could have done it without the API itself, because it uses an existing one, but I wanted to practice :)
 
+note: Soon I will change the API that searches anime episodes for one that has more information
